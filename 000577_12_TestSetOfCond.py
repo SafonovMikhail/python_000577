@@ -8,9 +8,6 @@ else:
     print("not")
 # input()
 
-
-
-
 nationality = "UK"
 age = 22
 if nationality == "UK" and (age < 21 or age > 64):
