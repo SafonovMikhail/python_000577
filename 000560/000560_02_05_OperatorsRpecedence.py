@@ -17,3 +17,7 @@ if not 1 + 1 == y or x == 4 and 7 == 8:
     print('yes')
 elif x > y:
     print('no')
+'''
+1+1 == y (2 == y - True)
+
+'''
