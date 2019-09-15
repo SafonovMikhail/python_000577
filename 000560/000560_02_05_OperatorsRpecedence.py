@@ -1,8 +1,10 @@
 print("000560_02_05_ex01_priority")
-print(False == False or True)
-print(False == (False or True))
-print((False == False) or True)
-print("000560_02_05_ex01_priority")
+print("False == False and True:", False == False and True)
+print("False or True:", False or True)
+print("False == (False or True):", False == (False or True))
+print("(False == False) and True:", (False == False) and True)
+
+print("000560_02_05_task01_priority")
 if 1 + 1 * 3 == 6:
     print('yes')
 else:
