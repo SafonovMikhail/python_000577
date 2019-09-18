@@ -1,11 +1,13 @@
 print()
 print("000560_02_test01")
+# What is the output of this code?
 list = [1, 1, 2, 3, 5, 8, 13]
 print(list[list[4]])
 input()
 
 print()
 print("000560_02_test02")
+# What does this code do?
 for i in range(10):
     if not i % 2 == 0:
         print(i + 1)
@@ -13,6 +15,7 @@ input()
 
 print()
 print("000560_02_test03_looping")
+# How many lines will this code print?
 while False:
     print('Looping...')
 input()
@@ -38,5 +41,5 @@ print("000560_02_test06_for")
 # Используйте цикл for, заполните пропуски так, чтобы перебрать элементы списка и вывести результат.
 list = ['x', 'y', 'z']
 for i in list:
-    print(i, sep=" ", end=" ")
+    print(i, end=" ")
 input()
