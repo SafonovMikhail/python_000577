@@ -5,7 +5,9 @@ print("000560_03_03_ex01_functions_arg")
 # функции принимают аргументы
 def print_with_exclamation(word):
 	print (word + '!')
-print_with_exclamation('hi')
+print_with_exclamation('spam')
+print_with_exclamation('eggs')
+print_with_exclamation('python')
 
 print()
 print("000560_03_03_task01_functions_double")
