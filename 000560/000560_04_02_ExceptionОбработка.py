@@ -53,6 +53,47 @@ except:
 
 print()
 print("000560_04_02_task.03_ExceptionОбработка")
+# try:
+    # num1 = input(": ")
+    # num2 = input(": ")
+    # print(float(num1)/float(num2))
+# except:
+    # print("inval err")
+
+print()
+print("000560_04_03_ex.01_ExceptionFinally")
 try:
-    num1 = input(":")
-    num2 = input(":")
+    print("Hi!")
+    print(1/0)
+except ZeroDivisionError:
+    print("div by zero")
+finally:
+    print("no matter")
+
+print()
+print("000560_04_03_t.01_ExceptionFinally")
+try:
+    print(1)
+except:
+    print(2)
+finally:
+    print(3)
+
+print()
+print("000560_04_03_ex.02_ExceptionFinally")
+try:
+    print(1)
+    print(10/0)
+except ZeroDivisionError:
+    print(unkn_var)
+finally:
+    print("This is executed last")
+
+print()
+print("000560_04_03_t.02_ExceptionFinally")
+try:
+    print(1)
+except:
+    print(2)
+finally:
+    print(3)
