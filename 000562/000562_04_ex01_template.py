@@ -6,4 +6,4 @@ def a_descriptive_name(optional_arguments):
 	# код
 	# код
 	# код
-	return optional_value
+	# return optional_value
