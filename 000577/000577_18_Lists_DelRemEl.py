@@ -1,3 +1,23 @@
+# theory
+
+tasks = ["email Frank", "call Sarah", "meet with Zach"]
+print(tasks)
+print(tasks[0])# is "email Frank"
+print(tasks[1])# is "call Sarah"
+print(tasks[2])# is "meet with Zach"
+'''
+Working through the list from top to bottom, you complete "email Frank",
+the first of the tasks. To strike that element off the list, you write:
+'''
+del tasks[0]
+print(tasks)
+
+
+
+
+
+
+
 print("")
 print("000577_18_ex01")
 tasks = ["email Frank", "call Sarah", "meet with Zach"]
@@ -17,7 +37,7 @@ print("000577_18_ex03")
 products = tasks2
 print("tasks2", tasks2)
 del tasks2[3] # важно! индекс в квадратных скобках
-print("del tasks2[3]")
+print("del tasks2[3]: 9 ")
 print("tasks2", tasks2)
 
 # Exercise 4

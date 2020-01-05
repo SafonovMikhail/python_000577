@@ -8,5 +8,5 @@ while i < 5:
     if s > 5:
         break
     i = i + 1
-    print("in( after breack ):", i)
+    print("in( after break ):", i)
 print("out:", i)
