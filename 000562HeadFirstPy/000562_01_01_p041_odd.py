@@ -25,13 +25,17 @@ print("\nsystem(sys.platform): ", sys.platform)
 print("\nPythonVersion(sys.version): ", sys.version)
 
 print (os.getcwd())
+# [getcwd] – возвращает текущий рабочий каталог
 
 print("\nEnvironment(os.environ): ", os.environ)
 print("доступ ко всем переменным окружения")
 
 print("\nEnvironment os.getenv('PATH'): ", os.getenv('PATH'))
+# [getenv] – возвращает конкретную переменную окружения
+
 print("\nEnvironment os.getenv('APPDATA'): ", os.getenv('APPDATA'))
 
+print("\nEnvironment os.getenv('HOME'): ", os.getenv('HOME'))
 
 
 
