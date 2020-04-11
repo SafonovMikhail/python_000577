@@ -1,6 +1,6 @@
 # 000759_05_loopFor.py
 
-for num in range(1,5):
+for num in range(1, 5):
     print(num)
     # for num2 in range(100,102):
     #     print("_")
@@ -9,13 +9,13 @@ for num in range(1,5):
     # # print(num,sep="")
     # print(num,sep="___")
 # for num in range(1,10):
-    # print(num)
-    # print(num,sep="",end="~")
-    # print(num,sep="___")
+# print(num)
+# print(num,sep="",end="~")
+# print(num,sep="___")
 # for num in range(1,10):
-    # print(num)
-    # print(num,sep="")
-    # print(num,sep="___",end="~~~~")
+# print(num)
+# print(num,sep="")
+# print(num,sep="___",end="~~~~")
 
 '''
 что мы можем сказать о фукнции print()?

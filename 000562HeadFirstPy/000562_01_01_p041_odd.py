@@ -1,6 +1,7 @@
 from datetime import datetime #модуль [datetima], подмодуль [datetime]
 # импортирует функциональность(?) из стандартной библиотеки
 from os import getcwd
+# getwcd - это что?
 import sys
 import os
 

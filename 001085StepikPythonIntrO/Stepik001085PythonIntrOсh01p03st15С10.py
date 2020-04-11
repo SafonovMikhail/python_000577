@@ -1,0 +1,5 @@
+num = float(input())
+# print(num//100)
+# print((num//10)%10)
+# print(num%10)
+print((num//100)**3+((num//10)%10)**3+(num%10)**3)

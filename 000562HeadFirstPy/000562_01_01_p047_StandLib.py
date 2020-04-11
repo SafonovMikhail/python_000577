@@ -13,16 +13,16 @@ print("имя папки с кодом: os.getcwd(): ", os.getcwd())
 print("доступ к системным переменным (всем) [os.environ]: ", os.environ)
 
 # пример доступа к конкретной системной переменной
-print("PROCESSOR_IDENTIFIER: ", os.getenv('PROCESSOR_IDENTIFIER'))
+print("PROCESSOR_IDENTIFIER: \t\t\t", os.getenv('PROCESSOR_IDENTIFIER'))
 
 # print(datetime.datetime.today())
-# print("datetime.date.today(): ", datetime.date.today())
-# print(datetime.date.today().year)
-# print(datetime.date.today().month)
-# print(datetime.date.today().day)
-# print(datetime.time())
-# print('datetime.date.isoformat(datetime.date.today()): ', datetime.date.isoformat(datetime.date.today()))
-print('time.strftime("%I:%M"): ', time.strftime("%I:%M"))
-print('time.strftime("%A %p"): ', time.strftime("%A %p"))
-print('datetime.time().minute: ', datetime.time().minute)
+print('datetime.date.today(): \t\t\t', datetime.date.today())
+print('datetime.date.today().year: \t',datetime.date.today().year)
+print('datetime.date.today().month: \t', datetime.date.today().month)
+print('datetime.date.today().day: \t\t', datetime.date.today().day)
+print('datetime.time(): \t\t\t\t',datetime.time()) # разобраться! Показывает нули
+print('time.strftime("%I:%M"): \t\t', time.strftime("%I:%M"))
+print('time.strftime("%A %p"): \t\t', time.strftime("%A %p"))
+print('datetime.time().minute: \t\t', datetime.time().minute)
+print('datetime.date.isoformat(datetime.date.today()): \t', datetime.date.isoformat(datetime.date.today()))
 
