@@ -1,0 +1,5 @@
+mon = int(input())
+sysbl = int(input())
+key = int(input())
+mouse = int(input())
+print((mon + sysbl + key + mouse) * 3)
