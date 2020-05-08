@@ -1,0 +1,5 @@
+num1 = (float(input()), float(input()))
+print((num1[0] + num1[1]) / 2)
+print((num1[0] * num1[1]) ** 0.5)
+print(num1[0] * num1[1] * 2 / (num1[0] + num1[1]))
+print(((num1[0] ** 2 + num1[1] ** 2) / 2) ** 0.5)

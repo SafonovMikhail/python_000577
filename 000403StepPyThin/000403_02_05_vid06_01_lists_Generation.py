@@ -6,4 +6,4 @@ c = [i * i for i in range(5)]
 print(c)
 # заполняем список значениями через пробел
 d = [int(i) for i in input().split()]
-print(d)
+print("d: ", d)
