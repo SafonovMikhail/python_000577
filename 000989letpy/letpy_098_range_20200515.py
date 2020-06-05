@@ -1,11 +1,11 @@
 i = 0
-while i < 5:
+while i < 5:  # цикл [while]
     print("01:", i)
     i += 1
 
 print()
 
-for i in range(5):  # один аргумент
+for i in range(5):  # один аргумент, цикл [for]
     print("02:", i)
 
 print()

@@ -37,6 +37,7 @@ print("\nEnvironment os.getenv('PATH'): ", os.getenv('PATH'))
 print("\nEnvironment os.getenv('APPDATA'): ", os.getenv('APPDATA'))
 
 print("\nEnvironment os.getenv('HOME'): ", os.getenv('HOME'))
+# не отмечено, для чего это нужно [20200530]
 
 
 

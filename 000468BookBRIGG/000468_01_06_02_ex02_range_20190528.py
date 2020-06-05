@@ -1,2 +1,1 @@
-print(list(range(10, 20)))
-input()
+print(list(range(10, 20))) # последний индекс не включается
