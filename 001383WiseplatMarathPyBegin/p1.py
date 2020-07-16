@@ -1,5 +1,0 @@
-print('введите a=')
-a=int(input())
-print('введите b=')
-b=int(input())
-print('сумма a+b=', a+b)
