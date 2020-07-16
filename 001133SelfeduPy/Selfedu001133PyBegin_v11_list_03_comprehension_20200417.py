@@ -15,9 +15,9 @@ A = [city for city in cities if len(city) < 7]
 
 print(A)
 
-
+import random  # импортируем модуль!
 
 # rnd = [(math.random()) * 100 for i in range(100)]
 # print(rnd)
-print((math.rnd()) * 100)
-
+rnd = random.random() * 100
+print('rnd:', int(rnd)) # отбрасываем дробную часть

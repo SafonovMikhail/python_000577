@@ -1,11 +1,14 @@
+'''
+не прохоит тесты
+'''
 h = float(input())
 d = int(input())
 n = int(input())
 x = 0
-count = 1
-x = x + d
+count = 0
 while x < h:
-    x = x - n
-    x = x + d
     count += 1
+    x = x + 3
+    if x < h:
+        x = x - 2
 print(count)
