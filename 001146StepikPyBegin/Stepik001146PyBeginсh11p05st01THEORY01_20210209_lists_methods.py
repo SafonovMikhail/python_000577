@@ -1,0 +1,37 @@
+s = 'Python is the most powerful language'
+words = s.split()
+print(words)
+
+# numbers = input().split()
+# 1 2 3 4 5
+# for i in range(len(numbers)):
+#     numbers[i] = int(numbers[i])
+# print(numbers)
+
+ip = '192.168.1.24'
+numbers = ip.split('.')  # указываем явно разделитель
+print(numbers)
+
+words = ['Python', 'is', 'the', 'most', 'powerful', 'language']
+s = ' '.join(words)
+print(s)
+
+words = ['Мы', 'учим', 'язык', 'Python']
+print('*'.join(words))
+print('-'.join(words))
+print('?'.join(words))
+print('!'.join(words))
+print('*****'.join(words))
+print('abc'.join(words))
+print('123'.join(words))
+
+s = 'Python    is   the  most  powerful  language'
+words1 = s.split()
+words2 = s.split(' ')
+print(words1)
+print(words2)
+
+# из комментариев
+n = [1, 2, 3]
+x = ''.join(str(i) for i in n) # при необходимости добавить список интов.
+print(x)  # 123
