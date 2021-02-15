@@ -78,3 +78,7 @@ for i in list1:
     print(i)
 # list1 = map(float, list)
 print(list1)
+print(2.78e-1)  # 0.278
+print(2.78e+1)  # внимание! 27.8
+
+print(divmod(4, 5))  # для чего?
