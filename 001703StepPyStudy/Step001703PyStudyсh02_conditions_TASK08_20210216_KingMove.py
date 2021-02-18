@@ -7,17 +7,17 @@
 потом для второй клетки. Программа должна вывести YES, если из первой
 клетки ходом короля можно попасть во вторую или NO в противном случае.
 '''
-hor1 = int(input())
-vert1 = int(input())
-hor2 = int(input())
-vert2 = int(input())
-dist_hor = hor2 - hor1
-dist_vert = vert2 - vert1
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+dist_hor = x2 - x1
+dist_vert = y2 - y1
 if dist_vert < 0:
     dist_vert = dist_vert * -1
 if dist_hor < 0:
     dist_hor = dist_hor * -1
-if hor2 < 0 or hor2 > 8:
+if x2 < 0 or x2 > 8:
     print('NO')
 elif dist_vert > 1 or dist_hor > 1:
     print('NO')
