@@ -1,24 +1,24 @@
 # 000404_02_04_step08_formOutput.py
-# a = int(input('a: '))
-# b = int(input('b: '))
-# c = int(input('c: '))
-# print('{:5d}{:5d}{:5d}'.format(a, b, c))
+a = int(input('a: '))
+b = int(input('b: '))
+c = int(input('c: '))
+print('{:5d}{:5d}{:5d}'.format(a, b, c))
 
 print('Программа, вычисляющая частное двух чисел. Введите два числа.')
-# a = int (input ('a: '))
-# b = int (input ('b: '))
-# print (a, '/', b, '=', a / b, sep = ' ')
+a = int (input ('a: '))
+b = int (input ('b: '))
+print (a, '/', b, '=', a / b, sep = ' ')
 
 print('Программа, вычисляющая частное двух чисел. Введите два числа.')
-# a = float (input ('a: '))
-# b = float (input ('b: '))
-# print (a, '/', b, '=', a / b, sep = ' ')
+a = float (input ('a: '))
+b = float (input ('b: '))
+print (a, '/', b, '=', a / b, sep = ' ')
 # output: 0.01 / 5000.0 = 2e-06
 
 print('Программа, вычисляющая частное двух чисел. Введите два числа.')
-# e = float(input('e: '))
-# f = float(input('f: '))
-# print(e, '/', f, '=', '{:10.17f}'.format(e / f))
+e = float(input('e: '))
+f = float(input('f: '))
+print(e, '/', f, '=', '{:10.17f}'.format(e / f))
 print()
 
 name = "Eric"
@@ -60,6 +60,7 @@ class Comedian:
 
     def __repr__(self):
         return f"{self.first_name} {self.last_name} is {self.age}. Surprise!"
+
 
 new_Comedian = Comedian('eric', 'Idle', '74')
 print(new_Comedian)
