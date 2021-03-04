@@ -10,9 +10,20 @@
 '''
 
 
-def capitalize(word):
-    for i in range(len(word)):
-        code1 = (chr(word[i]))
-    return
+def capitalize(string):
+    s1 = string.split(' ')  # преобразуем исходную строку в список слов
+    s2 = []
+    s3 = []
+    for i in s1:  # перебираем каждый элемент (слово) списка
+        for j in range(len(i)):
+            if j == 0:
+                s2.append(chr(ord(i[0]) - 32))
+            else:
+                s2.append(i[j])
+        s2.append(' ')
+        s3 = ''.join(s2)
+    return s3
 
-print(capitalize('none'))
+
+s = input()
+print(capitalize(s))
