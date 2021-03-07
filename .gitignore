@@ -32,3 +32,4 @@ venv
 
 *.ini
 
+__init__.py
