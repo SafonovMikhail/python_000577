@@ -98,6 +98,7 @@ draw_triangle(fill, base)
 # объявление функции
 def draw_triangle(fill, base):
     print(*[fill * (min(i, base + 1 - i)) for i in range(1, base + 1)], sep="\n")
+# min(i, base + 1 - i)) когда i становится больше 4х мин начинает выбирать обратное значение base + 1 - i
 
 
 # считываем данные
