@@ -4,7 +4,7 @@
 '''
 
 
-hello = h = "hello, "
+hello = h = "Hello, "
 world = w = "world"
 print("%s %s" % (h, w))  # форматированный вывод
 print("{} {}".format(h, w))  # форматированный вывод
